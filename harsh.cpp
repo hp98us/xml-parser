@@ -17,5 +17,5 @@ for (int i= 0 ;i <m ; i++){
       cout<< matrix[i][j];
     }
     cout<< endl;
-}
+}cout << "THE END" << endl;
 }
