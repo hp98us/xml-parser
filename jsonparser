@@ -1,0 +1,19 @@
+import json
+data = '''[
+{
+    "name": "sharma",
+    "id" : "007",
+    "x" : "21"
+},
+{
+    "name": "mittal",
+    "id" : "001",
+    "x" : "01"
+}
+]'''
+blah = json.loads(data)
+print("users: " ,len(blah))
+for item in blah:
+    print("name :" , item["name"])
+    print("id :" , item["id"])
+    print("attribute :" , item["x"])
