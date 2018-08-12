@@ -1,2 +1,2 @@
 # xml-parser
-It is an xml parser using element tree.
+It is an xml and json parser.
